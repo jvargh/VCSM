@@ -1,6 +1,5 @@
 # Virtual Customer Success Manager
-![Virtual Customer Success Manager](https://github.com/user-attachments/assets/035f0bcc-761f-49e3-9615-872cf2af9ba3)
-
+![Virtual Customer Success Manager](https://github.com/user-attachments/assets/73f1fd77-0260-4fa9-8b8e-e3e441256e59)
 The Virtual Customer Success Manager (VCSM) is an AI-powered assistant enhancing customer experiences by offering personalized support for Microsoft products. It leverages AI to understand each customer's needs and usage patterns, providing tailored advice, onboarding help, and feature recommendations to maximize the value of Microsoft solutions.
 
 **Tagline**: "Your Success, Our Priority: Personalized AI Support for Seamless Microsoft Experiences"
