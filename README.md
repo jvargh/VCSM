@@ -22,6 +22,7 @@ The Virtual Customer Success Manager (VCSM) is an AI-powered virtual assistant d
 - **Personalized Onboarding**: Guides new users through the initial setup and usage of Microsoft products.
 - **Proactive Support**: Analyzes usage patterns to predict potential issues and provides solutions.
 - **Tailored Recommendations**: Offers personalized tips, tricks, and feature suggestions.
+- **Customer Journey Mapping**: Develop an AI system that maps out the customer journey and identifies key touchpoints where customers experience friction. This can help businesses optimize their processes and deliver a smoother, more enjoyable experience.
 - **24/7 Availability**: Provides round-the-clock assistance.
 
 ## Installation
