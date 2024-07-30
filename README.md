@@ -26,10 +26,6 @@ The Virtual Customer Success Manager (VCSM) is an AI-powered virtual assistant d
 To install and set up the Virtual Customer Success Manager, follow these steps:
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/vcsm.git
-    cd vcsm
-    ```
 
 2. Install the necessary dependencies:
     ```bash
@@ -53,7 +49,6 @@ To use the Virtual Customer Success Manager:
     ```bash
     python app.py
     ```
-
 2. Access the application through your preferred web browser at `http://localhost:5000`.
 
 3. Interact with the virtual assistant to receive personalized support and recommendations.
@@ -65,36 +60,26 @@ To use the Virtual Customer Success Manager:
 - **Flask** (or any other web framework)
 - **Python**
 
-## Contributing
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
-
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Contact
-For questions or feedback, please reach out to [your email] or open an issue on GitHub.
+For questions or feedback, please open an issue on GitHub.
 
 ---
-
 **Keywords**: AI, virtual assistant, customer success, Microsoft products, onboarding, usage tips, feature recommendations, customer support, personalized advice, business value
 
-**Select Topic Challenges for your project**:
-- **Customer Experience**
-- **Operational Excellence**
-- **AI Transformation**
+**Key Topics/Challenges addressed by this project**:
+- Customer Experience
+- Operational Excellence
+- AI Transformation
 
 **Problem or Opportunity Statement**:
 Customers struggle to fully use Microsoft products, leading to missed opportunities. An AI assistant offers proactive, personalized support to enhance usage and drive long-term success.
 
 **Who is this for**:
-- **Microsoft Product Users**
-- **IT Support Teams**
-- **Customer Success Managers**
-- **Business Decision Makers**
-- **Technology Enthusiasts**
+- Microsoft Product Users
+- IT Support Teams
+- Customer Success Managers
+- Business Decision Makers
+- Technology Enthusiasts
