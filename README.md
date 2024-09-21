@@ -22,8 +22,8 @@
 The **Virtual Customer Success Manager (VCSM)** is a C# .NET project that leverages **Semantic Kernel** and **Azure OpenAI** to deliver personalized onboarding, proactive support, and tailored recommendations for Microsoft products. The application dynamically responds to user queries using AI-powered agents and plugins.
 
 [VCSM_Slide Deck](https://github.com/user-attachments/files/17084746/VCSM_Using_SemanticKernel.pdf)
-
 [VCSM_Video](https://youtu.be/5IvVFJR6l1E)
+[Hackathon24 Link](https://hackbox.microsoft.com/hackathons/hackathon2024/project/62484)
 
 ![Virtual Customer Success Manager](https://github.com/user-attachments/assets/73f1fd77-0260-4fa9-8b8e-e3e441256e59)
 
