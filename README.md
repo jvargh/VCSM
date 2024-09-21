@@ -12,6 +12,7 @@
   - [Run the Project](#1-run-the-project)
   - [Pick an Option](#2-pick-an-option)
 - [Project Structure](#project-structure)
+- [Resources on Semantic Kernel and AI Integration](#Resources-on-Semantic-Kernel-and-AI-Integration)
 - [License](#license)
 - [Keywords](#Keywords)
 - [Key Topics and Challenges addressed by this project](#Key-Topics-and-Challenges-addressed-by-this-project)
@@ -93,6 +94,18 @@ The **Virtual Customer Success Manager (VCSM)** is a C# .NET project that levera
 - **InternalUtilities**: Contains helper utilities for resource handling and configuration.
 - **Resources**: Contains documents such as Teams onboarding guides and recommendations.
 - **_vcsm**: Core VCSM logic split into distinct features like onboarding, support, and recommendations.
+
+## Resources on Semantic Kernel and AI Integration
+- [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel)  
+  The Semantic Kernel is an open-source SDK that enables integration of AI models with other systems. It is the core technology used in this project to handle plugins, automatic function calling, and multi-agent orchestration.
+- [Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)  
+  Azure OpenAI provides powerful language models, such as GPT, to create AI-driven, natural language understanding and response generation. It is used to provide the intelligent responses, tips, and personalized interactions in the VCSM project.
+- [Semantic Kernel Dev Blog](https://devblogs.microsoft.com/semantic-kernel/)  
+  Regular updates and insights on Semantic Kernel from Microsoft's development team.
+- [Develop AI Agents using Azure OpenAI and Semantic Kernel SDK](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure-open-ai-semantic-kernel-sdk/)  
+  Microsoft Learn training path that guides developers through building AI agents using Azure OpenAI and Semantic Kernel.
+- [Introducing Agents in Semantic Kernel](https://devblogs.microsoft.com/semantic-kernel/introducing-agents-in-semantic-kernel/)  
+  Blog post detailing the use of agents in Semantic Kernel, key to building multi-agent systems like the one used in this project.  
 
 ## License
 This project is licensed under the MIT License.
