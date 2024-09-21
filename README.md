@@ -29,7 +29,7 @@ The **Virtual Customer Success Manager (VCSM)** is a C# .NET project that levera
 3. **Tailored Recommendations**: Offers personalized suggestions and tips based on user behavior and preferences, retrieved via Semantic Kernel's Vector Store.
 
 ## Prerequisites
-- **.NET SDK** (version 7.0 or later)
+- **.NET SDK** (version 8.0 or later)
 - **Azure OpenAI** credentials
 
 ## Installation
