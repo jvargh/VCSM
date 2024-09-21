@@ -1,86 +1,107 @@
-# Virtual Customer Success Manager
-The Virtual Customer Success Manager (VCSM) is an AI-powered assistant enhancing customer experiences by offering personalized support for Microsoft products. It leverages AI to understand each customer's needs and usage patterns, providing tailored advice, onboarding help, and feature recommendations to maximize the value of Microsoft solutions.
+# Virtual Customer Success Manager (VCSM) - README
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+  - [Clone the repository](#1-clone-the-repository)
+  - [Set up User Secrets](#2-set-up-user-secrets)
+  - [Install Required Packages](#3-install-required-packages)
+- [Usage](#usage)
+  - [Run the Project](#1-run-the-project)
+  - [Pick an Option](#2-pick-an-option)
+- [Project Structure](#project-structure)
+- [License](#license)
+- [Keywords](#Keywords)
+- [Key Topics and Challenges addressed by this project](#Key-Topics-and-Challenges-addressed-by-this-project)
+- [Problem or Opportunity Statement](#Problem-or-Opportunity-Statement)
+- [Who is this for](#Who-is-this-for)
+
+## Overview
+The **Virtual Customer Success Manager (VCSM)** is a C# .NET project that leverages **Semantic Kernel** and **Azure OpenAI** to deliver personalized onboarding, proactive support, and tailored recommendations for Microsoft products. The application dynamically responds to user queries using AI-powered agents and plugins.
 
 ![Virtual Customer Success Manager](https://github.com/user-attachments/assets/73f1fd77-0260-4fa9-8b8e-e3e441256e59)
 
-**Tagline**: "Customer Success is Our #1 Priority: Personalized AI Support for Seamless Microsoft Experiences"
-
-## Table of Contents
-- [Project Description](#project-description)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## Project Description
-The Virtual Customer Success Manager (VCSM) is an AI-powered virtual assistant designed to enhance customer experiences by providing personalized support and guidance for Microsoft products and services. The VCSM leverages artificial intelligence to understand each customer's unique needs and usage patterns, offering tailored advice, onboarding assistance, and feature recommendations to help them maximize the value of their Microsoft solutions.
-
 ## Features
-- **Personalized Onboarding**: Guides new users through the initial setup and usage of Microsoft products.
-- **Proactive Support**: Analyzes usage patterns to predict potential issues and provides solutions.
-- **Tailored Recommendations**: Offers personalized tips, tricks, and feature suggestions.
-- **Customer Journey Mapping**: Develop an AI system that maps out the customer journey and identifies key touchpoints where customers experience friction. This can help businesses optimize their processes and deliver a smoother, more enjoyable experience.
-- **24/7 Availability**: Provides round-the-clock assistance.
+1. **Personalized Onboarding**: Provides step-by-step guidance for setting up and using Microsoft products, using Semantic Kernel Plugins.
+2. **Proactive Support**: Implements a multi-agent system to proactively address user issues, ensuring system stability and optimal performance.
+3. **Tailored Recommendations**: Offers personalized suggestions and tips based on user behavior and preferences, retrieved via Semantic Kernel's Vector Store.
+
+## Prerequisites
+- **.NET SDK** (version 7.0 or later)
+- **Azure OpenAI** credentials
 
 ## Installation
-To install and set up the Virtual Customer Success Manager, follow these steps:
-
-1. Clone the repository:
-
-2. Install the necessary dependencies:
+1. **Clone the repository**
     ```bash
-    pip install -r requirements.txt
+    git clone <repository-url>
+    cd <repository-folder>
     ```
 
-3. Set up environment variables (if any):
+2. **Set up User Secrets**
+    The project uses **Azure OpenAI** for processing natural language queries. To configure this securely, use `dotnet user-secrets` to store the API key and related configuration.
+
     ```bash
-    export VARIABLE_NAME=value
+    dotnet user-secrets set "AzureOpenAI:DeploymentName" gpt-35-turbo-16k
+    dotnet user-secrets set "AzureOpenAI:Endpoint" "https://<deployment-name>.openai.azure.com/"
+    dotnet user-secrets set "AzureOpenAI:ApiKey" <insert-key>
     ```
 
-4. Run the application:
+3. **Install Required Packages**
+    Install the necessary NuGet packages for the project.
+
     ```bash
-    python app.py
+    dotnet add package Microsoft.SemanticKernel --version 1.18.2-alpha
+    dotnet add package Microsoft.SemanticKernel.Agents --version 1.18.2-alpha
+    dotnet add package Microsoft.SemanticKernel.ChatCompletion
+    dotnet add package Xunit
     ```
 
 ## Usage
-To use the Virtual Customer Success Manager:
 
-1. Start the application:
+1. **Run the Project**
+    Execute the `Program.cs` file, and follow the prompts to select a desired feature.
+    
     ```bash
-    python app.py
+    dotnet run
     ```
-2. Access the application through your preferred web browser at `http://localhost:5000`.
 
-3. Interact with the virtual assistant to receive personalized support and recommendations.
+2. **Pick an Option**
+    When running the project, you will be prompted to select from the available functionalities:
 
-## Technologies Used
-- **Natural Language Processing (NLP)**
-- **Machine Learning Algorithms**
-- **Microsoft Azure AI Services**
-- **Flask** (or any other web framework)
-- **Python**
+    ```text
+    Please choose an option (type 'end' to exit):
+    1. Personalized Onboarding using Semantic Kernel Plugins
+    2. Proactive Support using Multi-Agents
+    3. Tailored Recommendations using Vector Store
+    Enter input (1, 2, 3, end to exit):
+    ```
+
+    - **Option 1**: Personalized onboarding walkthrough using Semantic Kernel Plugins.
+    - **Option 2**: Proactive support with issue resolution powered by multi-agent coordination.
+    - **Option 3**: Tailored recommendations based on user data stored in the Semantic Kernel Vector Store.
+
+## Project Structure
+- **InternalUtilities**: Contains helper utilities for resource handling and configuration.
+- **Resources**: Contains documents such as Teams onboarding guides and recommendations.
+- **_vcsm**: Core VCSM logic split into distinct features like onboarding, support, and recommendations.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License.
 
-## Contact
-For questions or feedback, please open an issue on GitHub.
+## Keywords
+AI, virtual assistant, customer success, Microsoft products, onboarding, usage tips, feature recommendations, customer support, personalized advice, business value
 
----
-**Keywords**: AI, virtual assistant, customer success, Microsoft products, onboarding, usage tips, feature recommendations, customer support, personalized advice, business value
-
-**Key Topics/Challenges addressed by this project**:
+## Key Topics and Challenges addressed by this project
 - Customer Experience
 - Operational Excellence
 - AI Transformation
 
-**Problem or Opportunity Statement**:
+## Problem or Opportunity Statement
 Customers struggle to fully use Microsoft products, leading to missed opportunities. An AI assistant offers proactive, personalized support to enhance usage and drive long-term success.
 
-**Who is this for**:
+## Who is this for
 - Microsoft Product Users
 - IT Support Teams
 - Customer Success Managers
