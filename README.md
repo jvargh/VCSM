@@ -52,8 +52,8 @@ The **Virtual Customer Success Manager (VCSM)** is a C# .NET project that levera
     Install the necessary NuGet packages for the project.
 
     ```bash
-    dotnet add package Microsoft.SemanticKernel --version 1.18.2-alpha
-    dotnet add package Microsoft.SemanticKernel.Agents --version 1.18.2-alpha
+    dotnet add package Microsoft.SemanticKernel # version 1.18.2-alpha
+    dotnet add package Microsoft.SemanticKernel.Agents # version 1.18.2-alpha
     dotnet add package Microsoft.SemanticKernel.ChatCompletion
     dotnet add package Xunit
     ```
