@@ -95,6 +95,16 @@ The **Virtual Customer Success Manager (VCSM)** is a C# .NET project that levera
 - **Resources**: Contains documents such as Teams onboarding guides and recommendations.
 - **_vcsm**: Core VCSM logic split into distinct features like onboarding, support, and recommendations.
 
+## Console outpout
+- **Personalized Onboarding using Semantic Kernel Plugins**:
+![image](https://github.com/user-attachments/assets/61f15943-1df4-4030-9c5a-2780989b4673)
+  
+- **Proactive Support using Multi-Agents**:
+![image](https://github.com/user-attachments/assets/a81e532d-75bf-4fbc-a0cf-be098c09dcb9)
+  
+- **Tailored Recommendations using Vector Store**:
+![image](https://github.com/user-attachments/assets/455061b6-0f88-43a5-bc33-aa060cf60113)
+
 ## Resources on Semantic Kernel and AI Integration
 - [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel)  
   The Semantic Kernel is an open-source SDK that enables integration of AI models with other systems. It is the core technology used in this project to handle plugins, automatic function calling, and multi-agent orchestration.
