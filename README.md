@@ -12,6 +12,7 @@
   - [Run the Project](#1-run-the-project)
   - [Pick an Option](#2-pick-an-option)
 - [Project Structure](#project-structure)
+- [Console output](#Console-output)
 - [Resources on Semantic Kernel and AI Integration](#Resources-on-Semantic-Kernel-and-AI-Integration)
 - [License](#license)
 - [Keywords](#Keywords)
@@ -95,7 +96,7 @@ The **Virtual Customer Success Manager (VCSM)** is a C# .NET project that levera
 - **Resources**: Contains documents such as Teams onboarding guides and recommendations.
 - **_vcsm**: Core VCSM logic split into distinct features like onboarding, support, and recommendations.
 
-## Console outpout
+## Console output
 - **Personalized Onboarding using Semantic Kernel Plugins**:
 ![image](https://github.com/user-attachments/assets/61f15943-1df4-4030-9c5a-2780989b4673)
   
